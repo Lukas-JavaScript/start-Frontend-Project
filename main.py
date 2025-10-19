@@ -25,5 +25,7 @@ with open('index.html', 'w') as f:
 </html>
 """)
     f.close()
-
-    
+with open('style.css', 'w') as f:
+    f.close()
+with open('script.js', 'w') as f:
+    f.close()
