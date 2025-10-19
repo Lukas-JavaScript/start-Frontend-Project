@@ -29,3 +29,6 @@ with open('style.css', 'w') as f:
     f.close()
 with open('script.js', 'w') as f:
     f.close()
+os.system('git add .')
+os.system('git commit -m "Initial commit"')
+print("Created index.html, style.css, and script.js files.")
