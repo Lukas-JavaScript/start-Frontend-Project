@@ -10,4 +10,18 @@ if git == 'y':
     os.system(f'git init')
 else:
     pass
+print(f"Project '{name}' created successfully.")
+with open('index.html', 'w') as f:
+    f.write(f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{name}</title>
+</head>
+<body>
+    <h1>Welcome to {name}</h1>
+</body>
+</html>
+""")
 
