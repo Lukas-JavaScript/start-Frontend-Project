@@ -24,4 +24,6 @@ with open('index.html', 'w') as f:
 </body>
 </html>
 """)
+    f.close()
 
+    
