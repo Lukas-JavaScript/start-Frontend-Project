@@ -8,6 +8,10 @@ if git == '':
     git = 'y'
 if git == 'y':
     os.system(f'git init')
+    with open(".gitignore", "w") as f:
+        f.write("""/a
+/test
+""")
 else:
     pass
 print(f"Project '{name}' created successfully.")
